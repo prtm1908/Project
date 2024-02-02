@@ -10,11 +10,10 @@ document.getElementById("passwordForm").addEventListener("submit", function(even
 
     // Compare entered password with stored password
     if (enteredPassword === storedPassword) {
-        alert("sahi jawaab haathi");
+        alert("Damn sahi jawab haathi ");
 
         window.location.href = "result.html";
     } else {
-        alert("galat hai pagal");
-        console.log("Galat answer")
+        alert("Galat hai pagal");
     }
 });
