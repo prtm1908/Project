@@ -6,13 +6,16 @@ document.getElementById("passwordForm").addEventListener("submit", function(even
     var enteredPassword = document.getElementById("pwd").value;
 
     // Hardcoded stored password (replace this with your actual stored password)
-    var storedPassword = "satin";
+    var storedPassword = "batra";
 
     // Compare entered password with stored password
     if (enteredPassword.toLowerCase() === storedPassword) {
-        alert("Damn sahi jawab haathi ");
+        alert("Damn sahi jawab haathi");
 
         window.location.href = "result.html";
+    } else if (enteredPassword.toLowerCase() === "gugnani") {
+        alert("Are you sureeeee?");
+
     } else {
         alert("Galat hai pagal");
     }
