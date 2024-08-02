@@ -6,7 +6,7 @@ document.getElementById("passwordForm").addEventListener("submit", function(even
     var enteredPassword = document.getElementById("pwd").value;
 
     // Hardcoded stored password (replace this with your actual stored password)
-    var storedPassword = "sahi password";
+    var storedPassword = "kathi roll";
 
     // Compare entered password with stored password
     if (enteredPassword.toLowerCase() === storedPassword) {
